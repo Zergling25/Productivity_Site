@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checklist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Checklist</h1>
+  <input type="text" id="check-input" placeholder="Add item..." />
+  <button onclick="addItem()">Add</button>
+  <button onclick="exportChecklist()">Export</button>
+  <input type="file" onchange="importChecklist(event)" />
+  <ul id="checklist"></ul>
+  <script src="checklist.js"></script>
+</body>
+</html>
